@@ -1,11 +1,57 @@
-this is my document
-this is my document
-this is my document
-this is my document
-this is my document
-this is my document
-this is my document
-this is my document
-this is my document
-this is my document
-this is my document
+
+Log_in into database with system    kripple99  and  execute this command
+(ALTER SYSTEM SET SEC_CASE_SENSITIVE_LOGON = false;)
+
+ 
+Log_in into database with system    kripple99  and  execute this command
+(ALTER SYSTEM SET SEC_CASE_SENSITIVE_LOGON = false;)
+
+ 
+Log_in into database with system    kripple99  and  execute this command
+(ALTER SYSTEM SET SEC_CASE_SENSITIVE_LOGON = false;)
+
+ 
+Log_in into database with system    kripple99  and  execute this command
+(ALTER SYSTEM SET SEC_CASE_SENSITIVE_LOGON = false;)
+
+ 
+Log_in into database with system    kripple99  and  execute this command
+(ALTER SYSTEM SET SEC_CASE_SENSITIVE_LOGON = false;)
+
+ 
+Log_in into database with system    kripple99  and  execute this command
+(ALTER SYSTEM SET SEC_CASE_SENSITIVE_LOGON = false;)
+
+ 
+Log_in into database with system    kripple99  and  execute this command
+(ALTER SYSTEM SET SEC_CASE_SENSITIVE_LOGON = false;)
+
+ 
+Log_in into database with system    kripple99  and  execute this command
+(ALTER SYSTEM SET SEC_CASE_SENSITIVE_LOGON = false;)
+
+ 
+Log_in into database with system    kripple99  and  execute this command
+(ALTER SYSTEM SET SEC_CASE_SENSITIVE_LOGON = false;)
+
+ 
+Log_in into database with system    kripple99  and  execute this command
+(ALTER SYSTEM SET SEC_CASE_SENSITIVE_LOGON = false;)
+
+ 
+Log_in into database with system    kripple99  and  execute this command
+(ALTER SYSTEM SET SEC_CASE_SENSITIVE_LOGON = false;)
+
+ 
+Log_in into database with system    kripple99  and  execute this command
+(ALTER SYSTEM SET SEC_CASE_SENSITIVE_LOGON = false;)
+
+ 
+Log_in into database with system    kripple99  and  execute this command
+(ALTER SYSTEM SET SEC_CASE_SENSITIVE_LOGON = false;)
+
+ 
+Log_in into database with system    kripple99  and  execute this command
+(ALTER SYSTEM SET SEC_CASE_SENSITIVE_LOGON = false;)
+
+ 
