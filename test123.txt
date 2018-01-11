@@ -1,0 +1,28 @@
+select a.project_id,project_desc(a.project_id) project,a.rec_no,a.rec_date,a.receipt_no,a.cheque_no,a.cheque_date,a.payment_mode_id,payment_mode_desc(a.payment_mode_id) payment_mode,
+a.sale_id,e.particulars process,allote_desc(d.allotte) customer,item_desc(d.asset_code) unit,a.amount 
+from b_sale_multi_processes a,b_unit_cat_change_req c,b_unit_booking_master d,b_unit_file_process e
+where a.booking_process_id = 4
+and a.doc_no = c.change_cat_id
+and a.sale_id = d.sale_id
+and a.booking_process_id = e.process_id
+and nvl(a.posted,'N')='Y'
+union all
+
+select a.project_id,project_desc(a.project_id) project,a.rec_no,a.rec_date,a.receipt_no,a.cheque_no,a.cheque_date,a.payment_mode_id,payment_mode_desc(a.payment_mode_id) payment_mode,
+a.sale_id,e.particulars process,allote_desc(d.allotte) customer,item_desc(d.asset_code) unit,a.amount 
+from b_sale_multi_processes a,b_unit_allotee_trns_req c,b_unit_booking_master d,b_unit_file_process e
+where a.booking_process_id = 5
+and a.doc_no = c.trans_req_id
+and a.sale_id = d.sale_id
+and a.booking_process_id = e.process_id
+and nvl(a.posted,'N')='Y'
+union all
+
+select a.project_id,project_desc(a.project_id) project,a.rec_no,a.rec_date,a.receipt_no,a.cheque_no,a.cheque_date,a.payment_mode_id,payment_mode_desc(a.payment_mode_id) payment_mode,
+a.sale_id,e.particulars process,allote_desc(d.allotte) customer,item_desc(d.asset_code) unit,a.amount 
+from b_sale_multi_processes a,b_unit_new_booking c,b_unit_booking_master d,b_unit_file_process e
+where a.booking_process_id = 6
+and a.doc_no = c.trans_id
+and a.sale_id = d.sale_id
+and a.booking_process_id = e.process_id
+and nvl(a.posted,'N')='Y'
